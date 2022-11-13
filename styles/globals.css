@@ -24,3 +24,12 @@ a {
     background: black;
   }
 }
+
+.row {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.row p {
+  text-align: center;
+}
